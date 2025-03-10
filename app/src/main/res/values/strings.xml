@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wallpaper App</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="download">Download</string>
+    <string name="share">share</string>
+    <string name="Share">Share</string>
+    <string name="share_image">Share Image</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share_the_app">Share the App</string>
+    <string name="about_us">About Us</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+</resources>
