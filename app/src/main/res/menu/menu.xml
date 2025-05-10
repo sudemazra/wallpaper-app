@@ -16,4 +16,8 @@
         android:id="@+id/aboutUs"
         android:icon="@drawable/info"
         android:title="@string/about_us"/>
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bookmarks"
+        android:title="@string/bookmark"/>
 </menu>

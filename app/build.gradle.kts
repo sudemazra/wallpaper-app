@@ -33,10 +33,14 @@ android {
 
 dependencies {
 
+    implementation(libs.picasso) //ben ekledim
+    implementation(libs.volley) //bunu da ben ekledim
+    implementation (libs.play.services.ads) //bunu da ben ekledim
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.play.services.ads.api)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
