@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".BookmarksActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         app:title="Bookmarks"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="wrap_content"
         android:background="@color/cream"
-        android:titleTextColor="@color/black"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        app:spanCount="5"
+        app:spanCount="3"
         android:id="@+id/recyclerView"
-        tools:listitem="@layout/wallpaper"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
 </LinearLayout>
